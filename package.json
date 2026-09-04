@@ -1,0 +1,16 @@
+{
+  "name": "FluentProlibrary",
+  "version": "1.6.0",
+  "description": "modded Versions of fluent Library and Fluent plus with more features",
+  "main": "init.lua",
+  "scripts": {
+    "rojo": "mkdirp dist && rojo build -o dist/main.lua",
+    "bundle": "pnpm run rojo && lune build"
+  },
+  "keywords": [],
+  "author": "dawid,StyearX,Vraigos",
+  "license": "MIT",
+  "devDependencies": {
+    "mkdirp": "^3.0.1"
+  }
+}
